@@ -1,0 +1,170 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+body {
+    background: #ddd;
+}
+/* 
+form#mainForm {
+    margin-top: 90px !important;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #c9dbee, #ffffff);
+    border-radius: 5px;
+    gap: 20px;
+}
+
+form#mainForm label {
+    display: flex;
+    flex-direction: column;
+}
+
+form#mainForm label input {
+    padding: 10px 0px;
+    margin-top:0px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #676666;
+    margin-bottom:5px;
+}
+
+form#mainForm label b {
+    font-family: sans-serif;
+    color: #535353;
+}
+
+label.error span {
+    font-family: sans-serif;
+    color: red;
+    font-weight: 600;
+    font-size:11px;
+}
+
+label span{
+    display:none;
+} 
+
+label.error input {
+    border-color: #ff2300 !important;
+}
+
+label.suc input {
+    border-color: #07da9f !important;
+}
+
+button.button1 {
+    width: 105px;
+    padding: 7px;
+    margin: auto;
+    background: #07e7f2eb;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+form#mainForm label i {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 27px;
+    color:rgb(134, 128, 128);
+    
+} */
+
+
+form#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+form#form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form#form label b {
+    font-family: sans-serif;
+    color: #050c57;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+form#form label input {
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+}
+
+label.er span {
+    background: #ffff10;
+    width: 85%;
+    text-align: center;
+    padding: 6px;
+    margin: auto;
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    display:block !important;
+    transition:.3s;
+}
+
+label.er span::before {
+position: absolute;
+content: '';
+width: 15px;
+height: 15px;
+background: #ffff10;
+top: -3px;
+right: 50%;
+transform: rotate(45deg) translateX(-50%);
+
+}
+
+label.er input {
+    border-color: red;
+}
+
+label.succes input {
+    border-color: #09fc09;
+}
+
+form#form label span {
+    display: none;
+}
+
+button.sbtn {
+    padding: 9px;
+    width: 115px;
+    font-size: 18px;
+    margin: auto;
+    background: linear-gradient(45deg, #6eff00, #001fff);
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+i#toggle1 {
+    position: relative;
+    top: -40px;
+    right: -305px;
+}
+
+i#toggle2 {
+    position: relative;
+    top: -40px;
+    right: -305px;
+}
